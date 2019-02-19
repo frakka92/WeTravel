@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">WeTravel</string>
+    <string name="we_text">WE</string>
+    <string name="tra_text">TRA</string>
+    <string name="vel_text">VEL</string>
+
+    <string name="menu_item">Menù item</string>
+    <string name="item_icon">Item icon</string>
+
+    <string name="header">WeTravel Agency</string>
+    <string name="location_item">44°35\'44.1"N 11°03\'23.6"E</string>
+    <string name="clock_item"> 9:00-18:00</string>
+    <string name="phone_item"> +39 338 9101004</string>
+
+    <string name="desc_agency"> We organize Trip across the whole Italy.
+    Pizza, Pasta, Gelato, Cannoli, Limoncello. Welcome to food paradise!</string>
+</resources>
