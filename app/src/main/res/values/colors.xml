@@ -9,4 +9,7 @@
     <color name="primaryTextColor">#ffffff</color>
     <color name="secondaryTextColor">#000000</color>
 
+
+    <color name="divider_color"> #607D8B </color>
+    <color name="bcg_app">#b4a1a1</color>
 </resources>
