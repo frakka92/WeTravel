@@ -130,7 +130,6 @@
         app:srcCompat="@drawable/ic_phone_black_24dp" />
 
 
-
     <TextView
         android:id="@+id/location"
         android:layout_width="wrap_content"
@@ -193,16 +192,16 @@
             android:id="@+id/ice_cream"
             android:layout_width="32dp"
             android:layout_height="32dp"
-            android:layout_weight="1"
             android:layout_gravity="center"
+            android:layout_weight="1"
             app:srcCompat="@drawable/ice_cream" />
 
         <ImageView
             android:id="@+id/plane"
             android:layout_width="32dp"
             android:layout_height="32dp"
-            android:layout_weight="1"
             android:layout_gravity="center"
+            android:layout_weight="1"
             android:contentDescription="@string/item_icon"
             app:srcCompat="@drawable/ic_flight_takeoff_black_24dp" />
 
@@ -210,8 +209,8 @@
             android:id="@+id/pizza"
             android:layout_width="32dp"
             android:layout_height="32dp"
-            android:layout_weight="1"
             android:layout_gravity="center"
+            android:layout_weight="1"
             android:contentDescription="@string/item_icon"
             app:srcCompat="@drawable/ic_local_pizza_black_24dp" />
 
@@ -219,11 +218,10 @@
             android:id="@+id/food"
             android:layout_width="32dp"
             android:layout_height="32dp"
-            android:layout_weight="1"
             android:layout_gravity="center"
+            android:layout_weight="1"
             android:contentDescription="@string/item_icon"
-            app:srcCompat="@drawable/ic_restaurant_black_24dp"
-        />
+            app:srcCompat="@drawable/ic_restaurant_black_24dp" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
