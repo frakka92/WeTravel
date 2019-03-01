@@ -10,6 +10,8 @@
     <color name="secondaryTextColor">#000000</color>
 
 
-    <color name="divider_color">#607D8B</color>
-    <color name="bcg_app">#b4a1a1</color>
+    <color name="divider_color">#102027</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
 </resources>

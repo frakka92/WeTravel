@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="margin_small">2dp</dimen>
+    <dimen name="margin_middle">4dp</dimen>
+    <dimen name="margin_default">8dp</dimen>
+
+    <dimen name="small_padding">2dp</dimen>
+    <dimen name="height_header">55dp</dimen>
+    <dimen name="size_header">36sp</dimen>
+
+    <dimen name="colosseum_height">225dp</dimen>
+    <dimen name="icon_size">24dp</dimen>
+
+    <dimen name="company_size">18sp</dimen>
+    <dimen name="info_size">18sp</dimen>
+    <dimen name="desc_size">24sp</dimen>
+</resources>
