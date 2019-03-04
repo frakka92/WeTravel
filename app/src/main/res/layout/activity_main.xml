@@ -53,8 +53,8 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="@dimen/small_padding"
-        android:layout_below="@+id/ita_flag">
+        android:layout_below="@+id/ita_flag"
+        android:padding="@dimen/small_padding">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -69,9 +69,9 @@
                 android:layout_marginTop="@dimen/margin_small"
                 android:layout_marginEnd="@dimen/margin_small"
                 android:adjustViewBounds="false"
+                android:contentDescription="@string/item_icon"
                 android:cropToPadding="false"
                 android:scaleType="center"
-                android:contentDescription="@string/item_icon"
                 android:src="@drawable/colosseum" />
 
             <TextView
@@ -80,9 +80,9 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/colosseum"
                 android:layout_margin="@dimen/margin_default"
-                android:textColor="@color/black"
                 android:text="@string/header"
                 android:textAlignment="textStart"
+                android:textColor="@color/black"
                 android:textSize="@dimen/company_size" />
 
             <View
@@ -90,8 +90,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:layout_below="@id/header"
-                android:layout_marginTop="@dimen/margin_small"
                 android:layout_marginStart="@dimen/margin_default"
+                android:layout_marginTop="@dimen/margin_small"
                 android:layout_marginEnd="@dimen/margin_default"
                 android:background="@color/divider_color" />
 
@@ -132,9 +132,9 @@
                 android:layout_alignTop="@id/location_icon"
                 android:layout_marginStart="@dimen/margin_middle"
                 android:layout_toEndOf="@id/location_icon"
-                android:textColor="@color/black"
                 android:text="@string/location_item"
                 android:textAlignment="textStart"
+                android:textColor="@color/black"
                 android:textSize="@dimen/info_size" />
 
             <TextView
@@ -145,9 +145,9 @@
                 android:layout_alignTop="@id/clock_icon"
                 android:layout_marginStart="@dimen/margin_middle"
                 android:layout_toEndOf="@id/clock_icon"
-                android:textColor="@color/black"
                 android:text="@string/clock_item"
                 android:textAlignment="textStart"
+                android:textColor="@color/black"
                 android:textSize="@dimen/info_size" />
 
             <TextView
@@ -158,9 +158,9 @@
                 android:layout_alignTop="@id/phone_icon"
                 android:layout_marginStart="@dimen/margin_middle"
                 android:layout_toEndOf="@id/phone_icon"
-                android:textColor="@color/black"
                 android:text="@string/phone_item"
                 android:textAlignment="textStart"
+                android:textColor="@color/black"
                 android:textSize="@dimen/info_size" />
 
             <TextView
@@ -169,8 +169,8 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/phone_icon"
                 android:text="@string/desc_agency"
-                android:textColor="@color/black"
                 android:textAlignment="center"
+                android:textColor="@color/black"
                 android:textSize="@dimen/desc_size" />
 
             <LinearLayout
@@ -186,16 +186,16 @@
                     android:id="@+id/ice_cream"
                     android:layout_width="@dimen/icon_size"
                     android:layout_height="@dimen/icon_size"
-                    android:background="@drawable/ice_cream"
                     android:layout_margin="@dimen/margin_default"
+                    android:background="@drawable/ice_cream"
                     android:contentDescription="@string/item_icon" />
 
                 <ImageView
                     android:id="@+id/plane"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/ic_flight_takeoff_black_24dp"
                     android:layout_margin="@dimen/margin_default"
+                    android:background="@drawable/ic_flight_takeoff_black_24dp"
                     android:contentDescription="@string/item_icon" />
 
                 <ImageView
@@ -210,8 +210,8 @@
                     android:id="@+id/food"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/ic_restaurant_black_24dp"
                     android:layout_margin="@dimen/margin_default"
+                    android:background="@drawable/ic_restaurant_black_24dp"
                     android:contentDescription="@string/item_icon" />
 
             </LinearLayout>
